@@ -412,7 +412,7 @@ span.dot{
 
  
 .contact p{
-    padding: 0px;
+    padding: 0px !important;
 }
 td p{
     padding: 20px;
@@ -435,7 +435,7 @@ td{
     color: white;
 }
 .tablehead td{
-    padding-top: 10px;
+    padding-top: 7px;
 }
 .events h2{
     padding: 50px;
