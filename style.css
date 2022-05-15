@@ -401,3 +401,13 @@ img {vertical-align: middle;}
 span.dot{
     padding: 7px;
 }
+
+
+@media  (max-width: 500px) {
+    .lib_image {
+        object-fit: contain;
+        width: 100%;
+    }
+  }
+
+ 
