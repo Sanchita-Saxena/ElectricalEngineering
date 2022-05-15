@@ -298,3 +298,11 @@ p{
         font-size: 10px;
     }
   }
+ul.strengths li, ul.NovelFeatures li{
+    list-style: disc !important;
+    padding: 10px;
+}
+ul.sublist li{
+    list-style: circle !important;
+    padding: 2px;
+}
