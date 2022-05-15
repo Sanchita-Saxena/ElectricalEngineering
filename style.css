@@ -454,3 +454,17 @@ td{
 .events h2{
     padding: 50px;
 }
+.ug_curri td{
+    vertical-align: top; 
+    width: 45%; 
+    background-color: white; 
+    padding: 4px 14px;
+    text-align: center;
+}
+.ug_curri th{
+    width: 45%; 
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #bccfe8;
+}
