@@ -402,7 +402,12 @@ span.dot{
     padding: 7px;
 }
 
-
+.lib_image{
+    width: 35%;
+    height: auto;
+    float: right;
+    margin: 90px;
+}
 @media  (max-width: 500px) {
     .infra_image {
         object-fit: contain;
