@@ -412,7 +412,7 @@ span.dot{
 
  
 .contact p{
-    padding: 0px;
+    padding: 0px !important;
 }
 td p{
     padding: 20px;
