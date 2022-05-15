@@ -306,7 +306,6 @@ ul.sublist li{
     list-style: circle !important;
     padding: 2px;
 }
-<<<<<<< HEAD
 
 .column {
     float: left;
@@ -332,7 +331,6 @@ ul.sublist li{
       width: 100%;
     }
   }
-=======
 .faculty{
     width: 100%;
     height: auto;
@@ -403,4 +401,3 @@ img {vertical-align: middle;}
 span.dot{
     padding: 7px;
 }
->>>>>>> 35fa611848e4919a6973409f3ba902540e3cdd63
