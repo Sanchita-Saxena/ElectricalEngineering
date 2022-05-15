@@ -401,18 +401,16 @@ img {vertical-align: middle;}
 span.dot{
     padding: 7px;
 }
-<<<<<<< HEAD
 
 
 @media  (max-width: 500px) {
-    .lib_image {
+    .infra_image {
         object-fit: contain;
         width: 100%;
     }
   }
 
  
-=======
 .contact p{
     padding: 0px;
 }
@@ -442,4 +440,3 @@ td{
 .events h2{
     padding: 50px;
 }
->>>>>>> c8a492d87114d299cf8fb306728851d378de40d0
