@@ -306,3 +306,28 @@ ul.sublist li{
     list-style: circle !important;
     padding: 2px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  @media  (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
