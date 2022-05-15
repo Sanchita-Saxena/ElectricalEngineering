@@ -409,7 +409,7 @@ span.dot{
     margin: 90px;
 }
 @media  (max-width: 500px) {
-    .lib_image {
+    .infra_image {
         object-fit: contain;
         width: 100%;
     }
