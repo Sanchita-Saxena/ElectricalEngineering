@@ -304,9 +304,8 @@ ul.strengths li, ul.NovelFeatures li{
 }
 ul.sublist li{
     list-style: circle !important;
-    padding: 2px;
+    padding: 10px;
 }
-<<<<<<< HEAD
 
 .column {
     float: left;
@@ -332,7 +331,6 @@ ul.sublist li{
       width: 100%;
     }
   }
-=======
 .faculty{
     width: 100%;
     height: auto;
@@ -403,4 +401,31 @@ img {vertical-align: middle;}
 span.dot{
     padding: 7px;
 }
->>>>>>> 35fa611848e4919a6973409f3ba902540e3cdd63
+.contact p{
+    padding: 0px;
+}
+td p{
+    padding: 2px 20px;
+}
+/* tr{
+    border: solid 2px black;
+} */
+td{
+    border: 2px solid black;
+}
+.odd{
+    background-color: #b5d8fe;
+}
+.even{
+    background-color: rgb(234, 234, 234);
+}
+.tablehead{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.tablehead td{
+    padding-top: 10px;
+}
+.events h2{
+    padding: 50px;
+}
