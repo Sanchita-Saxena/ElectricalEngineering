@@ -531,3 +531,16 @@ td{
 .collab li{
     list-style: disc !important;
 }
+.pdf{
+    padding: 20px;
+}
+.pdf b {
+    font-size: 18px;
+}
+.pdf a{
+    font-size: 16px;
+    color: #007bff;
+}
+.pdf a:hover{
+    color: #007bffa5;
+}
