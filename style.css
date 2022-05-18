@@ -501,12 +501,12 @@ td{
     margin: 40px 0px;
 }
 .table_rd td{
-    padding: 20px;
+    padding: 10px;
     vertical-align: middle;
     font-size: 14px;
 }
 .table_rd th{
-    padding: 20px;
+    padding: 10px;
     vertical-align: middle;
     background-color: #A0C8ED;
     border: 2px solid #000;
