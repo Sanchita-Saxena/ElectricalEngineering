@@ -242,7 +242,7 @@ p{
     width: 84px;
     height: auto;
     float: right;
-    margin: 20px;
+    margin: 28px 7px;
 }
 .dropbtn {
     background-color: rgb(53, 53, 53);
@@ -432,9 +432,9 @@ td p{
     padding: 20px;
     margin: 0px !important;
 }
-/* tr{
-    border: solid 2px black;
-} */
+.events_table{
+    margin: 10px;
+}
 td{
     border: 2px solid black;
 }
@@ -442,14 +442,14 @@ td{
     background-color: #b5d8fe;
 }
 .even{
-    background-color: rgb(234, 234, 234);
+    background-color: #fff;
 }
 .tablehead{
-    background-color: rgb(53, 53, 53);
+    background-color: #0a58ca;
     color: white;
 }
 .tablehead td{
-    padding-top: 7px;
+    padding: 7px !important;
 }
 .events h2{
     padding: 50px;
@@ -483,10 +483,14 @@ td{
 .research_areas{
     border: 2px solid rgb(51, 51, 51);
     border-radius: 4px;
-    margin: 30px;
-    width: 50%;
-    height: auto;
+    margin: 30px 10px;
     box-shadow: 0px 0px 30px #000;
+}
+@media (max-width: 600px) {
+    .research_areas{
+        width: 90%;
+        height: auto;
+    }
 }
 .head_rd{
     padding: 10px;
@@ -511,6 +515,51 @@ td{
     background-color: #A0C8ED;
     border: 2px solid #000;
     font-size: 16px;
+}
+@media (max-width: 500px){
+    .table_rd td{
+        font-size: 10px;
+        padding: 4px;
+    }
+    .table_rd th{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .h2{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .head_rd{
+        font-size: 16px;
+    }
+
+    .odd td p{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .even td p{
+        font-size: 12px;
+        padding: 4px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .row h3{
+        font-size: 12px;
+    }
+}
+@media (max-width: 350px){
+    .odd td p{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .even td p{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .tablehead td p{
+        font-size: 8px;
+    }
 }
 .publications{
     font-size: 14px;
