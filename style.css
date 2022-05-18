@@ -468,3 +468,47 @@ td{
     text-align: center;
     background-color: #bccfe8;
 }
+
+.list_iipc{
+    padding-left: 100px;
+}
+.list_iipc li{
+    list-style: disc !important;
+}
+.head_iipc{
+    background-color: rgb(172, 206, 250);
+    border-bottom: 2px solid black;
+    margin: 0px -12px;
+}
+.research_areas{
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 4px;
+    margin: 30px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+}
+.head_rd{
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.table_rd{
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px 0px;
+}
+.table_rd td{
+    padding: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.table_rd th{
+    padding: 20px;
+    vertical-align: middle;
+    background-color: #A0C8ED;
+    border: 2px solid #000;
+    font-size: 16px;
+}
