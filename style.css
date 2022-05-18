@@ -512,3 +512,22 @@ td{
     border: 2px solid #000;
     font-size: 16px;
 }
+.publications{
+    font-size: 14px;
+}
+.publications b{
+    font-size: 16px;
+}
+.publications ul{
+    padding: 7px 40px;
+}
+.collab b{
+    padding: 7px 20px;
+    font-size: 18px;
+}
+.collab ul{
+    padding: 7px 70px;
+    font-size: 14px;}
+.collab li{
+    list-style: disc !important;
+}
