@@ -575,15 +575,16 @@ td{
     font-size: 16px;
 }
 .publications ul{
-    padding: 7px 40px;
+    padding: 7px 30px;
 }
 .collab b{
-    padding: 7px 20px;
+    padding: 7px 10px;
     font-size: 18px;
 }
 .collab ul{
-    padding: 7px 70px;
-    font-size: 14px;}
+    padding: 7px 30px;
+    font-size: 14px;
+}
 .collab li{
     list-style: disc !important;
 }
@@ -599,4 +600,17 @@ td{
 }
 .pdf a:hover{
     color: #007bffa5;
+}
+
+@media (max-width: 500px){
+    .collab b{
+        font-size: 14px;
+    }
+    .collab ul{
+        padding: 7px 10px 7px 30px;
+    }
+    .ncollab{
+        font-size: 10px;
+        padding: 10px !important;
+    }
 }
