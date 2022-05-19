@@ -234,7 +234,7 @@ footer {
     background-color: rgb(216, 216, 216);
 } */
 p{
-    padding: 10px 40px;
+    padding: 10px 25px;
 }
 .logo{
     width: 84px;
@@ -613,5 +613,52 @@ td{
     .ncollab{
         font-size: 10px;
         padding: 10px !important;
+    }
+    .pdf a{
+        
+    font-size: 12px;
+    }
+    .achievements p{
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+}
+.inc, .achievements ul{
+    padding-left: 50px;
+}
+.mail a, .tel a{
+    color: #007bff;
+}
+.mail a:hover, .tel a:hover{
+    color: #007bffa5;
+}
+.f, .s, .t{
+    width: 25%;
+    padding: 7px 20px;
+}
+.chapters td{
+    border: none;
+    padding: 7px 20px;
+}
+.chapters p{
+    padding: 2px 20px;
+}
+@media (max-width: 500px){
+    .f, .s, .t{
+        padding: 8px;
+        font-size: 10px;
+    }
+    .chapters td{
+        padding: 4px;
+        font-size: 8px;
+    }
+    .mail a, .tel a{
+        font-size: 12px;
+    }
+    table .mail a{
+        font-size: 8px;
+    }
+    .chapters p{
+        font-size: 12px;
     }
 }
