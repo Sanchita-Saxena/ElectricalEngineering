@@ -689,4 +689,8 @@ td{
         margin: 0px !important;
         margin-bottom: 17px !important;
     }
+    .incentives p{
+        font-size: 13px;
+        padding: 2px 0px !important;
+    }
 }
