@@ -76,7 +76,9 @@ login/signup
     font-size: 20px;
     padding: 10px;
 }
-
+li{
+    text-align: justify;
+}
 /* -------------------------
 index
 ------------------------- */
@@ -299,7 +301,6 @@ p{
   }
 ul.strengths li, ul.NovelFeatures li{
     list-style: disc !important;
-    padding: 10px;
 }
 ul.sublist li{
     list-style: circle !important;
@@ -518,6 +519,7 @@ td{
     border: 2px solid #000;
     font-size: 16px;
 }
+
 @media (max-width: 500px){
     .table_rd td{
         font-size: 8px;
@@ -551,9 +553,6 @@ td{
     }
     .iipc p{
         font-size: 12px;
-    }
-    li{
-        font-size: 10px;
     }
 }
 @media (max-width: 350px){
@@ -660,5 +659,34 @@ td{
     }
     .chapters p{
         font-size: 12px;
+    }
+    li{
+        font-size: 12px;
+        text-align: justify;
+    }
+    ul{
+        padding-left: 20px !important;
+    }
+    #EE p, #DP p{
+        font-size: 12px;
+        text-align: justify;
+        padding: 10px;
+    } 
+    h4{
+        padding: 2px;
+        font-size: 14px;
+        margin: 0px 10px;
+    }
+    .strengths, .NovelFeatures{
+        padding-left: 12px !important;
+    }
+    .labs p{
+        padding: 0px !important; 
+        font-size: 12px;
+    }
+    .infra_image{
+        width: 100% !important;
+        margin: 0px !important;
+        margin-bottom: 17px !important;
     }
 }
