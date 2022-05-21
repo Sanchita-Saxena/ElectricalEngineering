@@ -690,6 +690,26 @@ td{
     list-style: disc;
     font-size: 18px;
 }
+.place_table th{
+    font-size: 14px;
+    padding: 7px;
+    margin: 2px;
+    text-align: center;
+    border: 2px solid black;
+}
+.placement_co th{
+    padding: 7px;
+    background-color: #A0C8ED;
+    border: 2px solid black;
+}
+.placement_co td{
+    padding: 7px;
+    background-color: white;
+}
+.proc img{
+    width: 400px;
+    height: auto;
+}
 @media (max-width: 500px){
     .f, .s, .t{
         padding: 8px;
@@ -817,5 +837,43 @@ td{
     .column{
         flex: 100%;
     }
+    .place_table th{
+        font-size: 12px;
+        padding: 7px;
+        margin: 2px;
+    }
+    .place_table td{
+        font-size: 12px;
+        padding: 4px;
+        margin: 2px;
+    }
+    .placement_co th{
+        padding: 4px;
+        font-size: 11px;
+    }
+    .placement_co td{
+        padding: 4px;
+        font-size: 11px;
+    }
+    .proc img{
+        width: 200px;
+        height: auto;
+    }
+    .recur img{
+        width: 200px;
+        height: auto;
+    }
+    .tpc img{
+        width: 200px;
+        height: auto;
+    }
+    .fac p{
+        padding: 2px;
+        margin: 2px;
+    }
+    .pcm p{
+        font-size: 12px;
+    }
 }
+
 
