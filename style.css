@@ -814,7 +814,7 @@ td{
         padding: 4px;
         margin: 4px;
     }
-    .history .column{
+    .column{
         flex: 100%;
     }
 }
