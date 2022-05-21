@@ -455,7 +455,7 @@ td{
     padding: 50px;
 }
 .ug_curri td{
-    vertical-align: top; 
+    vertical-align: center; 
     width: 45%; 
     background-color: white; 
     padding: 4px 14px;
@@ -575,7 +575,7 @@ td{
     font-size: 16px;
 }
 .publications ul{
-    padding: 7px 30px;
+    padding: 7px 10px 7px 30px;
 }
 .collab b{
     padding: 7px 10px;
@@ -642,6 +642,54 @@ td{
 .chapters p{
     padding: 2px 20px;
 }
+.doc td{
+    vertical-align: top !important;
+}
+.doc ul{
+    margin-bottom: 0px !important;
+    padding: 10px 24px;
+}
+.doc ul li{
+    list-style: disc !important;
+    padding: 0px;
+}
+.doc td{
+    background-color: white;
+}
+.doc_fee th{
+    border: 2px solid black;
+    background-color: #bccfe8;
+}
+.doc_fee th p{
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px !important;
+}
+.doc_fee td{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.sem{
+    background-color: #D2E4FC !important; 
+}
+.integrated td{
+    border: none;
+    border-radius: 20px;
+}
+.integrated p{
+    font-size: 20px;
+}
+.integrated ul{
+    padding: 10px 30px;
+    /* padding-left: 22px; */
+    margin: 4px;
+}
+.integrated li{
+    list-style: disc;
+    font-size: 18px;
+}
 @media (max-width: 500px){
     .f, .s, .t{
         padding: 8px;
@@ -693,4 +741,69 @@ td{
         font-size: 13px;
         padding: 2px 0px !important;
     }
+    .ug_table{
+        margin: -12px !important;
+    }
+    .ug_table td p, .ug_p{
+        padding: 4px !important;
+        font-size: 11px;
+        text-align: justify;
+    }
+    .ug_curri td{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .ug_curri th{
+        font-size: 12px;
+        padding: 4px;
+    }
+    .ugc_table td p, .ugc_table td b{
+        font-size: 12px;
+    }
+    .pg_p{
+        font-size: 12px;
+    }
+    .pg_table td p{
+        font-size: 10px;
+        padding: 2px !important;
+        margin: 0px !important;
+    }
+    .pg_table{
+        margin: -7px;
+    }
+    .doc_p p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .doc li{
+        font-size: 8.5px;
+        text-align: left;
+        margin-left: -4px;
+    }
+    .doc ul{
+        padding: 4px 2px;
+    }
+    .doc, .doc_fee{
+        margin: -7px;
+    }
+    .doc_fee td p, .doc_fee th p{
+        font-size: 12px;
+        padding: 4px 0px;
+    }
+    .integrated li{
+        font-size: 12px;
+    } 
+    .integrated p{
+        font-size: 14px;
+        padding: 4px;
+        margin: 4px;
+    }
+    .acad p{
+        font-size: 14px;
+    }
+    .acad a{
+        font-size: 14px;
+        text-align: left;
+    }
 }
+
